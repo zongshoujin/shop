@@ -9,6 +9,7 @@ public class Test {
 	
 	private static void test(){
 		System.out.println("this is test method");
+		System.out.println("this is test method 2 ......");
 	}
 }
 
