@@ -139,5 +139,10 @@ public class ArticleDaoImplTest {
 		tags.add(tagDao.find(tagIds[2]));
 		assertThat(articleDao.findList(null, tags, null, null, null).size(), is(80));
 	}
+	
+	@Test
+	public void testCheck(){
+		System.out.println("this is test check method......");
+	}
 
 }
